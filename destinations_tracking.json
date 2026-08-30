@@ -93,5 +93,15 @@
     "destination": "Warsaw",
     "first_seen": "2026-08-30",
     "article_generated": false
+  },
+  "Bukhara": {
+    "destination": "Bukhara",
+    "first_seen": "2026-08-30",
+    "article_generated": false
+  },
+  "Jakarta": {
+    "destination": "Jakarta",
+    "first_seen": "2026-08-30",
+    "article_generated": false
   }
 }
