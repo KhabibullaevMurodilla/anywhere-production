@@ -103,5 +103,35 @@
     "destination": "Jakarta",
     "first_seen": "2026-08-30",
     "article_generated": false
+  },
+  "Al-Najaf": {
+    "destination": "Al-Najaf",
+    "first_seen": "2026-08-30",
+    "article_generated": false
+  },
+  "Da Nang": {
+    "destination": "Da Nang",
+    "first_seen": "2026-08-30",
+    "article_generated": false
+  },
+  "Khujand": {
+    "destination": "Khujand",
+    "first_seen": "2026-08-30",
+    "article_generated": false
+  },
+  "Minsk": {
+    "destination": "Minsk",
+    "first_seen": "2026-08-30",
+    "article_generated": false
+  },
+  "Mumbai": {
+    "destination": "Mumbai",
+    "first_seen": "2026-08-30",
+    "article_generated": false
+  },
+  "Tirana": {
+    "destination": "Tirana",
+    "first_seen": "2026-08-30",
+    "article_generated": false
   }
 }
