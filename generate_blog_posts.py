@@ -164,6 +164,15 @@ POST_TEMPLATE = """<!DOCTYPE html>
   .cta a {{ display:inline-block; margin-top:10px; color:var(--sky); font-family:var(--flap); font-size:13px; text-decoration:none; }}
   footer {{ padding:28px 0; font-size:12px; color:var(--muted); border-top:1px solid var(--line); }}
 </style>
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {{
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrldtp.cc/NTY3ODc0.js?t=567874';
+      document.head.appendChild(script);
+  }})();
+</script>
 </head>
 <body>
 <nav><div class="wrap"><a href="{site_url}/">&larr; back to {site_name}</a><a href="{site_url}/blog/">Explore more</a></div></nav>
@@ -203,6 +212,15 @@ INDEX_TEMPLATE = """<!DOCTYPE html>
   .post .meta {{ font-family:var(--flap); font-size:11px; color:var(--muted); margin-top:8px; }}
   nav a {{ color:var(--sky); text-decoration:none; font-family:var(--flap); font-size:13px; }}
 </style>
+<script nowprocket data-noptimize="1" data-cfasync="false" data-wpfc-render="false" seraph-accel-crit="1" data-no-defer="1" data-cmp-ab="2">
+  (function () {{
+      var script = document.createElement("script");
+      script.async = 1;
+      script.setAttribute("data-cmp-ab","2");
+      script.src = 'https://emrldtp.cc/NTY3ODc0.js?t=567874';
+      document.head.appendChild(script);
+  }})();
+</script>
 </head>
 <body>
 <div class="wrap">
