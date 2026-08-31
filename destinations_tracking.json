@@ -208,5 +208,50 @@
     "destination": "Sukhumi",
     "first_seen": "2026-08-31",
     "article_generated": false
+  },
+  "Abu Dhabi": {
+    "destination": "Abu Dhabi",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Copenhagen": {
+    "destination": "Copenhagen",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Dehradun": {
+    "destination": "Dehradun",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Kaunas": {
+    "destination": "Kaunas",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Kozhikode": {
+    "destination": "Kozhikode",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Marrakech": {
+    "destination": "Marrakech",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Mauritius": {
+    "destination": "Mauritius",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Pescara": {
+    "destination": "Pescara",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Prague": {
+    "destination": "Prague",
+    "first_seen": "2026-08-31",
+    "article_generated": false
   }
 }
