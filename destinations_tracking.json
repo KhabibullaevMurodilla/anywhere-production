@@ -168,5 +168,45 @@
     "destination": "Yerevan",
     "first_seen": "2026-08-31",
     "article_generated": false
+  },
+  "Bengaluru": {
+    "destination": "Bengaluru",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Bishkek": {
+    "destination": "Bishkek",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Denpasar (Bali)": {
+    "destination": "Denpasar (Bali)",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Gdansk": {
+    "destination": "Gdansk",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Izmir": {
+    "destination": "Izmir",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Karachi": {
+    "destination": "Karachi",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Lahore": {
+    "destination": "Lahore",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Sukhumi": {
+    "destination": "Sukhumi",
+    "first_seen": "2026-08-31",
+    "article_generated": false
   }
 }
