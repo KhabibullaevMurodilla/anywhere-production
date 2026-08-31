@@ -133,5 +133,40 @@
     "destination": "Tirana",
     "first_seen": "2026-08-30",
     "article_generated": false
+  },
+  "Antalya": {
+    "destination": "Antalya",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Batumi": {
+    "destination": "Batumi",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Dabaa City": {
+    "destination": "Dabaa City",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Dalaman": {
+    "destination": "Dalaman",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Fergana": {
+    "destination": "Fergana",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Riga": {
+    "destination": "Riga",
+    "first_seen": "2026-08-31",
+    "article_generated": false
+  },
+  "Yerevan": {
+    "destination": "Yerevan",
+    "first_seen": "2026-08-31",
+    "article_generated": false
   }
 }
