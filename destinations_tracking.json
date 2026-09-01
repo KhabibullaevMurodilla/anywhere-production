@@ -98,8 +98,10 @@
   },
   "Bukhara": {
     "destination": "Bukhara",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "bukhara-2026-09-01",
+    "title": "Bukhara: Finding the Unseen Details",
+    "published_at": "2026-09-01T11:27:22.129240+00:00"
   },
   "Jakarta": {
     "destination": "Jakarta",
@@ -140,8 +142,10 @@
   },
   "Antalya": {
     "destination": "Antalya",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "antalya-2026-09-01",
+    "title": "The Gentle Pull of Antalya",
+    "published_at": "2026-09-01T11:26:58.711360+00:00"
   },
   "Batumi": {
     "destination": "Batumi",
@@ -259,5 +263,12 @@
     "destination": "Prague",
     "first_seen": "2026-08-31",
     "article_generated": false
+  },
+  "Biarritz": {
+    "destination": "Biarritz",
+    "article_generated": true,
+    "slug": "biarritz-2026-09-01",
+    "title": "Biarritz: The Undeniable Pull of Its Atlantic Soul",
+    "published_at": "2026-09-01T11:27:11.037079+00:00"
   }
 }
