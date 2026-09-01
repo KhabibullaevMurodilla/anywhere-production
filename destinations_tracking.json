@@ -6,8 +6,10 @@
   },
   "Almaty": {
     "destination": "Almaty",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "almaty-2026-09-01",
+    "title": "The Quiet Pull of Almaty",
+    "published_at": "2026-09-01T05:48:05.911700+00:00"
   },
   "Baku": {
     "destination": "Baku",
@@ -111,8 +113,10 @@
   },
   "Da Nang": {
     "destination": "Da Nang",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "da-nang-2026-09-01",
+    "title": "That Da Nang Light",
+    "published_at": "2026-09-01T05:48:29.109111+00:00"
   },
   "Khujand": {
     "destination": "Khujand",
@@ -141,8 +145,10 @@
   },
   "Batumi": {
     "destination": "Batumi",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "batumi-2026-09-01",
+    "title": "Batumi: Where Small Details Linger",
+    "published_at": "2026-09-01T05:48:17.182000+00:00"
   },
   "Dabaa City": {
     "destination": "Dabaa City",
