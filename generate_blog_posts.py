@@ -90,7 +90,7 @@ def save_tracking(tracking):
 
 
 def call_gemini(prompt):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent?key={GEMINI_API_KEY}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={GEMINI_API_KEY}"
     resp = requests.post(url, json={"contents": [{"parts": [{"text": prompt}]}]}, timeout=30)
     resp.raise_for_status()
     data = resp.json()
