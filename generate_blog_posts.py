@@ -5,17 +5,16 @@ Turns real, recurring deals into short, curiosity-driving destination
 articles - grounded in genuine appeal, not invented quotes or generic
 listicle filler.
 
-THE LOGIC (deliberately delayed, not instant):
-- The FIRST time a destination shows up as a genuine deal, it's just
-  recorded as "seen" - no article yet. The site shows the plain deal card.
-- The NEXT time that same destination reappears as a genuine deal (a
-  later run, meaning it's a real recurring opportunity, not a one-off),
-  THAT's when its article actually gets written and published.
-- From then on, the site can show a "Browse <Destination>" link next to
-  the booking button for that destination's deals.
-
-This means only destinations that genuinely keep showing up as real deals
-earn dedicated content - a natural way to prioritize writing effort.
+THE LOGIC:
+- The FIRST time a destination shows up as a genuine deal, its article
+  gets written immediately, in that same run.
+- Because the article is written and committed alongside that day's deal
+  data, a visitor's very first pageview already has the article ready -
+  the "Browse <Destination>" link appears next to the booking button
+  right away, not on some later visit.
+- Each destination only ever gets ONE article - once written, it's
+  reused for every future deal at that destination rather than
+  regenerated.
 
 VOICE:
 Short, unresolved on purpose - stops at a vivid, curious point rather than
@@ -258,6 +257,42 @@ def rebuild_index(tracking):
         f.write(html)
 
 
+def rebuild_sitemap(tracking):
+    """Regenerates sitemap.xml at the repo root to include the homepage,
+    the Explore hub, and every individual article - so Google can
+    discover and index each one directly, not just via internal links."""
+    published = [v for v in tracking.values() if v.get("article_generated")]
+
+    urls = [
+        {"loc": f"{SITE_URL}/", "changefreq": "daily", "priority": "1.0"},
+        {"loc": f"{SITE_URL}/blog/", "changefreq": "daily", "priority": "0.8"},
+    ]
+    for p in published:
+        urls.append({
+            "loc": f"{SITE_URL}/blog/{p['slug']}.html",
+            "changefreq": "monthly",
+            "priority": "0.6",
+            "lastmod": p.get("published_at", "")[:10] if p.get("published_at") else None,
+        })
+
+    entries = ""
+    for u in urls:
+        lastmod_tag = f"\n    <lastmod>{u['lastmod']}</lastmod>" if u.get("lastmod") else ""
+        entries += f"""  <url>
+    <loc>{u['loc']}</loc>{lastmod_tag}
+    <changefreq>{u['changefreq']}</changefreq>
+    <priority>{u['priority']}</priority>
+  </url>
+"""
+
+    sitemap_xml = f"""<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{entries}</urlset>
+"""
+    with open("sitemap.xml", "w") as f:
+        f.write(sitemap_xml)
+
+
 def main():
     # Create this FIRST, before any early-exit checks below - so a missing
     # API key or empty deal list never leaves the workflow's git add step
@@ -280,26 +315,15 @@ def main():
     for destination in sorted(today_destinations):
         entry = tracking.get(destination)
 
-        if entry is None:
-            tracking[destination] = {
-                "destination": destination,
-                "first_seen": today_str,
-                "article_generated": False,
-            }
-            print(f"First sighting: {destination} (recorded, no article yet)")
-            continue
-
-        if entry.get("article_generated"):
+        if entry and entry.get("article_generated"):
             print(f"{destination}: already has an article, skipping")
             continue
 
-        if entry["first_seen"] == today_str:
-            continue
-
         if new_articles_written >= MAX_NEW_ARTICLES_PER_RUN:
+            print(f"{destination}: hit this run's article limit, will try next run")
             continue
 
-        print(f"Recurring deal destination: {destination} -> writing article now")
+        print(f"{destination} is a genuine deal today -> writing article now")
         try:
             title, body_html = generate_article(destination)
         except Exception as e:
@@ -311,17 +335,19 @@ def main():
         with open(os.path.join(BLOG_DIR, f"{slug}.html"), "w") as f:
             f.write(html)
 
-        tracking[destination].update({
+        tracking[destination] = {
+            "destination": destination,
             "article_generated": True,
             "slug": slug,
             "title": title,
             "published_at": datetime.now(timezone.utc).isoformat(),
-        })
+        }
         new_articles_written += 1
         time.sleep(2)
 
     save_tracking(tracking)
     rebuild_index(tracking)
+    rebuild_sitemap(tracking)
     print(f"\nDone. Wrote {new_articles_written} new article(s) this run.")
 
 
