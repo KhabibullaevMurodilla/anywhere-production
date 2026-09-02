@@ -186,8 +186,10 @@
   },
   "Bishkek": {
     "destination": "Bishkek",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "bishkek-2026-09-02",
+    "title": "Bishkek's Undeniable Pull",
+    "published_at": "2026-09-02T11:00:57.910216+00:00"
   },
   "Denpasar (Bali)": {
     "destination": "Denpasar (Bali)",
@@ -221,8 +223,10 @@
   },
   "Abu Dhabi": {
     "destination": "Abu Dhabi",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "abu-dhabi-2026-09-02",
+    "title": "The Details That Linger in Abu Dhabi",
+    "published_at": "2026-09-02T11:00:30.048765+00:00"
   },
   "Copenhagen": {
     "destination": "Copenhagen",
@@ -270,5 +274,12 @@
     "slug": "biarritz-2026-09-01",
     "title": "Biarritz: The Undeniable Pull of Its Atlantic Soul",
     "published_at": "2026-09-01T11:27:11.037079+00:00"
+  },
+  "Chennai": {
+    "destination": "Chennai",
+    "article_generated": true,
+    "slug": "chennai-2026-09-02",
+    "title": "Chennai: A City Felt, Not Just Seen",
+    "published_at": "2026-09-02T11:01:30.791482+00:00"
   }
 }
