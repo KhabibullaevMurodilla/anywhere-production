@@ -18,8 +18,10 @@
   },
   "Bodrum": {
     "destination": "Bodrum",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "bodrum-2026-09-03",
+    "title": "Why Bodrum Stays With You",
+    "published_at": "2026-09-03T10:59:08.147829+00:00"
   },
   "Chisinau": {
     "destination": "Chisinau",
@@ -28,8 +30,10 @@
   },
   "Frankfurt": {
     "destination": "Frankfurt",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "frankfurt-2026-09-03",
+    "title": "Frankfurt: Beyond the Skyline, a Local Hum",
+    "published_at": "2026-09-03T11:00:03.295872+00:00"
   },
   "Geneva": {
     "destination": "Geneva",
@@ -281,5 +285,12 @@
     "slug": "chennai-2026-09-02",
     "title": "Chennai: A City Felt, Not Just Seen",
     "published_at": "2026-09-02T11:01:30.791482+00:00"
+  },
+  "Dushanbe": {
+    "destination": "Dushanbe",
+    "article_generated": true,
+    "slug": "dushanbe-2026-09-03",
+    "title": "Dushanbe: A City of Gentle Impressions",
+    "published_at": "2026-09-03T10:59:45.585739+00:00"
   }
 }
