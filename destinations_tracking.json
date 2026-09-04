@@ -165,13 +165,17 @@
   },
   "Dalaman": {
     "destination": "Dalaman",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "dalaman-2026-09-04",
+    "title": "Dalaman: Where the Air Lingers",
+    "published_at": "2026-09-04T10:59:34.298787+00:00"
   },
   "Fergana": {
     "destination": "Fergana",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "fergana-2026-09-04",
+    "title": "The Luminous Blue of Fergana",
+    "published_at": "2026-09-04T10:59:46.474818+00:00"
   },
   "Riga": {
     "destination": "Riga",
@@ -185,8 +189,10 @@
   },
   "Bengaluru": {
     "destination": "Bengaluru",
-    "first_seen": "2026-08-31",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "bengaluru-2026-09-04",
+    "title": "Bengaluru: The Comfort in the Chaos",
+    "published_at": "2026-09-04T10:59:23.757554+00:00"
   },
   "Bishkek": {
     "destination": "Bishkek",
