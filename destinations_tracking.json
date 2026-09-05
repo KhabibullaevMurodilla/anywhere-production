@@ -42,8 +42,10 @@
   },
   "Genoa": {
     "destination": "Genoa",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "genoa-2026-09-05",
+    "title": "Genoa: The Details That Linger",
+    "published_at": "2026-09-05T10:22:25.980829+00:00"
   },
   "Ho Chi Minh City": {
     "destination": "Ho Chi Minh City",
@@ -109,8 +111,10 @@
   },
   "Jakarta": {
     "destination": "Jakarta",
-    "first_seen": "2026-08-30",
-    "article_generated": false
+    "article_generated": true,
+    "slug": "jakarta-2026-09-05",
+    "title": "Falling for Jakarta's Everyday Magic",
+    "published_at": "2026-09-05T10:23:20.079237+00:00"
   },
   "Al-Najaf": {
     "destination": "Al-Najaf",
@@ -298,5 +302,12 @@
     "slug": "dushanbe-2026-09-03",
     "title": "Dushanbe: A City of Gentle Impressions",
     "published_at": "2026-09-03T10:59:45.585739+00:00"
+  },
+  "Hurghada": {
+    "destination": "Hurghada",
+    "article_generated": true,
+    "slug": "hurghada-2026-09-05",
+    "title": "Where the Red Sea Breathes",
+    "published_at": "2026-09-05T10:23:06.830581+00:00"
   }
 }
